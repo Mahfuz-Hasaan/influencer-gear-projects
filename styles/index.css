@@ -30,7 +30,7 @@ header{
 
 /* main body css */
 .left-section{
-    padding: 0rem 40rem 0rem 10.53rem;
+    padding: 0rem 36rem 0rem 10.53rem;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -50,9 +50,10 @@ header{
 }
 .section-a-img{
     background-image: url('../images/Circle\ design.svg');
+    
     background-repeat: no-repeat;
     background-size: contain;
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 #p{
@@ -75,4 +76,58 @@ header{
 .custom-arrow{
     color: aliceblue;
     font-size: 18px;
+}
+
+/* section-b-css-starts */
+.section-b{
+    display: flex;
+    justify-content: space-around;
+    margin: 4.375rem 10.313rem ;
+    border: 0px;
+    border-top: 2px solid rgba(214, 212, 212, 0.418);
+    border-bottom: 2px solid rgba(214, 212, 212, 0.418);
+    padding:2.65rem 0rem 2.65rem 0rem;
+}
+/* .section-b-ends */
+
+.section-c{
+    max-height:65.438rem ;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.ratings{
+    display: flex;
+    gap: 80px;
+}
+.golden,.half-gold{
+    color: #FB8200;
+}
+.grid-items-section-c{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 6.25rem 16.25rem 12.25rem 18.75rem ;
+    
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 0px;
+    box-shadow: 0px 0px 20px 1px #ddd7d7;
+    width: 20rem;
+    margin: 0px 0px 50px 0px;
+    padding: 42px 25px 42px 40px;
+    border-radius: 20px;
+}
+.section-c h1{
+    position: absolute;
+    left: 51.25rem;
+}
+.product h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.product p{
+    padding-top: 15px;
 }
