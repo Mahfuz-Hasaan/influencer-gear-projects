@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+head,body{
+    font-family: 'Poppins'
+}
+main{
+    
+    margin: 0 auto;
+   
+}
+li{
+    list-style: none;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* header css */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5.438rem 7.563rem 3.25rem 10.563rem ;
+}
+
+/* main body css */
+.left-section{
+    padding: 0rem 40rem 0rem 10.53rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-section h1{
+    font-size: 52px;
+}
+.left-section p{
+    font-size: 16px;
+}
+.section-a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6rem;
+}
+.section-a-img{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    padding-right: 4rem;
+}
+#p{
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: aliceblue;
+    padding-right: 10px;
+    
+}
+.btn-velvet{
+    background-color:#E02C6D ;
+    border: 0px;
+    border-radius: 20px;
+    padding: 3px 0px 3px 0px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-arrow{
+    color: aliceblue;
+    font-size: 18px;
+}
